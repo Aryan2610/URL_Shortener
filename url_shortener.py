@@ -1,6 +1,6 @@
 import requests
 def shorten_link(full_link):
-    API_KEY = "b94f11ede16db085f8334f5c93710d9852ce3" #Generate your own from cuttly website
+    API_KEY = "" #Generate your own from cuttly website
     BASE_URL = "https://cutt.ly/api/api.php"
     payload = {'key': API_KEY, 'short': full_link}
     request = requests.get(BASE_URL, params= payload)
